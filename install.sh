@@ -105,15 +105,15 @@ error_detect_depends() {
 
 # Cài đặt trước cài đặt
 pre_install_docker_compose() {
-  echo -e "  [1] vuthaiazz.xyz"
-  echo -e "  [2] vuthaiazz.xyz"
+  echo -e "  [1] datasieure.com"
+  echo -e "  [2] datasieure.com"
   read -p "  Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="http://vuthaiazz.xyz/"
+    api_host="http://datasieure.com/"
   elif [ "$api_host" == "2" ]; then
-    api_host="http://vuthaiazz.xyz/"
+    api_host="http://datasieure.com/"
   else 
-    api_host="http://https://vuthaiazz.xyz/"
+    api_host="http://https://datasieure.com/"
   fi
 
   echo "--------------------------------"
@@ -181,8 +181,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "http://vuthaiazz.xyz/"
-      ApiKey: "1122334455667788"
+      ApiHost: "https://datasieure.com/"
+      ApiKey: "NEX02FXzRFtJWNRxUjmlPPKdhiHj3ttV"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
@@ -352,8 +352,8 @@ Install_xrayr() {
 clear
 while true; do
   echo "  -----XrayR AZZ-----"
-  echo "  VŨ VĂN THÁI (AZZ)"
-  echo "  VŨ VĂN THÁI"
+  echo "  Đỗ Minh Trí"
+  echo "  Đỗ Minh Trí"
   echo "  Vui lòng nhập một số để Thực Hiện Câu Lệnh:"
   for ((i = 1; i <= ${#operation[@]}; i++)); do
     hint="${operation[$i - 1]}"
