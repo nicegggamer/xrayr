@@ -105,15 +105,15 @@ error_detect_depends() {
 
 # Cài đặt trước cài đặt
 pre_install_docker_compose() {
-  echo -e "  [1] datasieure.com"
-  echo -e "  [2] datasieure.com"
+  echo -e "  [1] 4gsieure.com"
+  echo -e "  [2] 4gsieure.com"
   read -p "  Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="http://datasieure.com/"
+    api_host="http://4gsieure.com/"
   elif [ "$api_host" == "2" ]; then
-    api_host="http://datasieure.com/"
+    api_host="http://4gsieure.com/"
   else 
-    api_host="http://https://datasieure.com/"
+    api_host="http://https://4gsieure.com/"
   fi
 
   echo "--------------------------------"
