@@ -181,8 +181,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "http://datasieure.com/"
-      ApiKey: "NEX02FXzRFtJWNRxUjmlPPKdhiHj3ttV"
+      ApiHost: "http://4gsieure.com/"
+      ApiKey: "LhBdqss6sVawXhtdANeJWlPAvuTY85nJ"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
