@@ -9,6 +9,8 @@ red='\033[0;31m'
 green='\033[0;32m'
 #yellow='\033[0;33m'
 plain='\033[0m'
+operation=(Install Update UpdateConfig logs restart delete)
+# Đảm bảo rằng chỉ người chủ mới có thể chạy tập lệnh của chúng tôi
 [[ $EUID -ne 0 ]] && echo -e "[${red}Error${plain}] Chưa vào root kìa !, vui lòng xin phép ROOT trước!" && exit 1
 
 # Kiểm tra hệ thống
@@ -179,7 +181,7 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://datasieure.com/"
+      ApiHost: "http://datasieure.com/"
       ApiKey: "NEX02FXzRFtJWNRxUjmlPPKdhiHj3ttV"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
@@ -350,8 +352,8 @@ Install_xrayr() {
 clear
 while true; do
   echo "  -----XrayR AZZ-----"
-  echo "  Đỗ Minh Trí"
-  echo "  Đỗ Minh Trí"
+  echo "  VŨ VĂN THÁI (AZZ)"
+  echo "  VŨ VĂN THÁI"
   echo "  Vui lòng nhập một số để Thực Hiện Câu Lệnh:"
   for ((i = 1; i <= ${#operation[@]}; i++)); do
     hint="${operation[$i - 1]}"
